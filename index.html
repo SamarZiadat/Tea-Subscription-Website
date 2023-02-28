@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
     <script src="https://kit.fontawesome.com/8539a9d649.js" crossorigin="anonymous"></script>
 </head>
 
@@ -27,9 +28,17 @@
             <p class="navbar-text my-auto mr-2"><i>Organic tea delivered to your door!</i></p>
             <a href="/login">Sign In / Sign Up</a>
         </div>
-        <!--</div>-->
     </nav>
+    <!-- /.nav -->
     <article class="container mt-3">
+        <div class="row">
+            <div class="col-12">
+                <div class="alert alert-warning">
+                    <strong>Sale now on!</strong> We've got a sale on. Get a 12-month subscription for the price of 6!
+                    <a href="">See here for details!</a>
+                </div>
+            </div>
+        </div>
         <!-- Callout -->
         <div class="row">
             <div class="col-12">
@@ -59,31 +68,33 @@
                 <div class="col-12 col-md-6">
                     <div class="media">
                         <div class="d-none d-sm-block">
-                        <img src="assets/images/portrait1.png" class="rounded-circle mr-3" height=100 width="100">
+                            <img src="assets/images/portrait1.png" class="rounded-circle mr-3" height=100 width="100">
+                        </div>
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>This year, I've been introduced to more than 10 great organic teas that I had never
+                                    tried
+                                    before.
+                                </p>
+                                <p>- Rose Jones</p>
+                            </blockquote>
+                        </div>
                     </div>
-                    <div class="media-body">
-                        <blockquote class="blockquote">
-                            <p>This year, I've been introduced to more than 10 great organic teas that I had never tried
-                                before.
-                            </p>
-                            <p>- Rose Jones</p>
-                        </blockquote>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                            <img src="assets/images/portrait2.png" class="rounded-circle mr-3" height=100 width="100">
+                        </div>
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>I look forward to my delivery every month! It's convenient and feels like such a
+                                    treat.</p>
+                                <p>- Jasmine Smith</p>
+                            </blockquote>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-12 col-md-6">
-                <div class="media">
-                    <div class="d-none d-sm-block">
-                    <img src="assets/images/portrait2.png" class="rounded-circle mr-3" height=100 width="100">
-                </div>
-                <div class="media-body">
-                    <blockquote class="blockquote">
-                        <p>I look forward to my delivery every month! It's convenient and feels like such a treat.</p>
-                        <p>- Jasmine Smith</p>
-                    </blockquote>
-                </div>
-            </div>
-            </div>
             </div>
         </section>
         <!-- /.quotes -->
@@ -100,7 +111,8 @@
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature">
-                        <h3><i class="fa-solid fa-gift d-none d-sm-inline"></i> Feature 1 <span class="badge badge-success">NEW!</span></h3>
+                        <h3><i class="fa-solid fa-gift d-none d-sm-inline"></i> Feature 1 <span
+                                class="badge badge-success">NEW!</span></h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat.</p>
