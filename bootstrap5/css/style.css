@@ -4,6 +4,8 @@ body {
 
 .alert-container {}
 
+/* Callout Container */
+
 .callout-container {
     height: 100vh;
     background: url(../images/tea-background.jpg) no-repeat bottom right fixed; 
@@ -16,7 +18,41 @@ body {
     justify-content: center;
 }
 
+.callout-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.callout-container .lead {
+    margin: 25px 0;
+    color: #ecd7c4;
+}
+
+.callout-container small {
+    font-size: 60%;
+    font-style: italic;
+    color: #ecd7c4;
+}
+
 .quotes-container {}
 
 .features-container {}
 
+/* Block Dividers */
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #e39017;
+    opacity: 100;
+    margin: auto;
+}
+
+.block-divider--orange {
+    background-color: #e39017;
+}
+
+.block-divider--short {
+    width: 35px;
+}
