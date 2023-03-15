@@ -26,13 +26,13 @@ body {
 
 .callout-container .lead {
     margin: 25px 0;
-    color: #ecd7c4;
+    color: #fff3cd;
 }
 
 .callout-container small {
     font-size: 60%;
     font-style: italic;
-    color: #ecd7c4;
+    color: #fff3cd;
 }
 
 .quotes-container {}
@@ -55,4 +55,26 @@ body {
 
 .block-divider--short {
     width: 35px;
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--orange {
+    color: white;
+    background-color: #e39017;
+    border-color: #e39017;
+}
+
+.btn--orange:hover,
+.btn--orange:active,
+.btn--orange:focus,
+.btn--orange:active:focus {
+    background-color: #c57e16;
+    border-color: #c57e16;
 }
