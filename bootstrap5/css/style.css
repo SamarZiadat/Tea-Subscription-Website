@@ -44,13 +44,13 @@ body {
     width: 75px;
     height: 5px;
     border: 0;
-    background-color: #e39017;
+    background-color: ff9700;
     opacity: 100;
     margin: auto;
 }
 
 .block-divider--orange {
-    background-color: #e39017;
+    background-color: ff9700;
 }
 
 .block-divider--short {
@@ -67,14 +67,44 @@ body {
 
 .btn--orange {
     color: white;
-    background-color: #e39017;
-    border-color: #e39017;
+    background-color: #ff9700;
+    border-color: #ff9700;
 }
 
 .btn--orange:hover,
 .btn--orange:active,
 .btn--orange:focus,
 .btn--orange:active:focus {
-    background-color: #c57e16;
-    border-color: #c57e16;
+    background-color: #ff7a00;
+    border-color: #ff7a00;
+    color: white;
+}
+
+/* Navbar */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 0;
+    padding-left: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100vw;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
 }
