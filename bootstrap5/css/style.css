@@ -2,20 +2,33 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Alert */
+/* Navbar */
 
-.alert-container .col-12 {
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 0;
     padding-left: 0;
-    padding-right: 0;
+    z-index: 1;
 }
 
-.site-wide-alert {
-    border-radius: 0;
+.navbar {
     margin-bottom: 0;
+    border: 0;
     width: 100vw;
-    padding: 5px 15px;
-    background-color: #fad55d;
-    border-color: #fad55d;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
 }
 
 /* Callout Container */
@@ -49,26 +62,51 @@ body {
     color: #fff3cd;
 }
 
+/* Alert */
+
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    width: 100vw;
+    padding: 5px 15px;
+    background-color: #fad55d;
+    border-color: #fad55d;
+}
+
 .quotes-container {}
 
 .features-container {}
 
+/* Content Containers */
+
+.content-container { 
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
 /* Block Dividers */
+
 .block-divider {
     width: 75px;
     height: 5px;
     border: 0;
-    background-color: ff9700;
+    background-color: #ff9700;
     opacity: 100;
     margin: auto;
 }
 
 .block-divider--orange {
-    background-color: ff9700;
+    background-color: #ff9700;
 }
 
 .block-divider--short {
     width: 35px;
+    background-color: #444;
 }
 
 /* Buttons */
@@ -94,31 +132,14 @@ body {
     color: white;
 }
 
-/* Navbar */
+/* Page Headers */
 
-.navalert-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-top: 0;
-    padding-left: 0;
-    z-index: 1;
-}
-
-.navbar {
+.page-header {
     margin-bottom: 0;
-    border: 0;
-    width: 100vw;
+    border-bottom: 0;
+    text-align: center;
 }
 
-.navbar .navbar-nav a {
-    font-weight: bold;
-}
-
-.navbar .navbar-toggler {
-    border: 0;
-}
-
-.navbar-brand {
-    font-weight: bold;
+.page-header h2 {
+    margin-top: 0;
 }
