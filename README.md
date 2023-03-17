@@ -10,7 +10,7 @@ View the live project [here](https://samarziadat.github.io/tea-subscription-webs
 
 ### Concept: 
 
-Tea Drop is a website for a business that provides its customer s with an organic tea subscription service. 
+Tea Drop is a website for a business that provides its customers with an organic tea subscription service. 
 
 ### Wireframes
 
