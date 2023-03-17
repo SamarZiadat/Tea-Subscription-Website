@@ -2,7 +2,21 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.alert-container {}
+/* Alert */
+
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    width: 100vw;
+    padding: 5px 15px;
+    background-color: #fad55d;
+    border-color: #fad55d;
+}
 
 /* Callout Container */
 
