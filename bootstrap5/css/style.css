@@ -2,6 +2,82 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Content Containers */
+
+.content-container { 
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/* Container Wrappers */
+
+.container-wrapper {
+
+}
+
+.container-wrapper--mauve {
+    background-color: #965753;
+    color: white; 
+}
+
+/* Block Dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #2b3036;
+    opacity: 100;
+    margin: auto;
+}
+
+.block-divider--mauve {
+    background-color: #965753;
+}
+
+.block-divider--short {
+    width: 35px;
+}
+
+.block-divider--white {
+    background-color: #ffffff;
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--mauve {
+    color: white;
+    background-color: #965753;
+    border-color: #965753;
+}
+
+.btn--mauve:hover,
+.btn--mauve:active,
+.btn--mauve:focus,
+.btn--mauve:active:focus {
+    background-color: #965753;
+    border-color: #965753;
+    color: white;
+}
+
+/* Page Headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
 /* Navbar */
 
 .navalert-container {
@@ -95,18 +171,22 @@ body {
     width: 75px;
     height: 5px;
     border: 0;
-    background-color: #ff9700;
     opacity: 100;
+    background-color: 
     margin: auto;
 }
 
-.block-divider--orange {
-    background-color: #ff9700;
+.block-divider--mauve {
+    background-color: #965753;
 }
 
 .block-divider--short {
     width: 35px;
-    background-color: #444;
+}
+
+.block-divider--white {
+    width: 35px;
+    background-color: #ffffff;
 }
 
 /* Buttons */
@@ -117,18 +197,18 @@ body {
     width: 160px;
 }
 
-.btn--orange {
+.btn--mauve {
     color: white;
-    background-color: #ff9700;
-    border-color: #ff9700;
+    background-color: #965753;
+    border-color: #965753;
 }
 
-.btn--orange:hover,
-.btn--orange:active,
-.btn--orange:focus,
-.btn--orange:active:focus {
-    background-color: #ff7a00;
-    border-color: #ff7a00;
+.btn--mauve:hover,
+.btn--mauve:active,
+.btn--mauve:focus,
+.btn--mauve:active:focus {
+    background-color: #774541;
+    border-color: #774541;
     color: white;
 }
 
